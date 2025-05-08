@@ -56,38 +56,40 @@
     }
   </style>
     <!-- contact style-->
-     <style>
-    .contact-info {
-      max-width: 600px;
-      margin: 50px auto;
-      padding: 20px;
-      background-color: #f1f1f1;
-      border-radius: 10px;
-      font-family: Arial, sans-serif;
-    }
-
-    .contact-info h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .info-item {
+    <style>
+    .contact-container {
       display: flex;
-      align-items: center;
-      margin: 15px 0;
-      font-size: 16px;
+      justify-content: space-around;
+      background-color: #333;
+      color: white;
+      padding: 30px 10px;
+      font-family: Arial, sans-serif;
+      flex-wrap: wrap;
     }
 
-    .info-item i {
-      font-size: 20px;
-      width: 30px;
-      color: #333;
+    .contact-box {
+      flex: 1 1 200px;
+      text-align: center;
+      margin: 10px;
     }
 
-    .info-text {
-      margin-left: 10px;
+    .contact-box i {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #00aced;
+    }
+
+    .contact-box h3 {
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+
+    .contact-box p {
+      margin: 0;
+      font-size: 14px;
     }
   </style>
+     
    <body>
                <!--===== HEADER =====-->
         <header class="l-header">
@@ -239,24 +241,24 @@
                 </div>
                 </div>
             </section>
-            <section class="contact-info">
-    <h2>Contact Information</h2>
-
-    <div class="info-item">
+            <section class="contact-container">
+    <div class="contact-box">
       <i class="fas fa-phone"></i>
-      <div class="info-text">+1 (123) 456-7890</div>
+      <h3>Call Us</h3>
+      <p>+1 (123) 456-7890</p>
     </div>
-
-    <div class="info-item">
+    <div class="contact-box">
       <i class="fas fa-envelope"></i>
-      <div class="info-text">email@example.com</div>
+      <h3>Email</h3>
+      <p>contact@example.com</p>
     </div>
-
-    <div class="info-item">
+    <div class="contact-box">
       <i class="fas fa-map-marker-alt"></i>
-      <div class="info-text">123 Main Street, City, Country</div>
+      <h3>Visit</h3>
+      <p>123 Main St, Your City</p>
     </div>
   </section>
+           
             <footer>
     <p>&copy; 2025 Designed by Navya Vincent Kuttukaran.</p>
   </footer>
