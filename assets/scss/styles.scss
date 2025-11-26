@@ -200,7 +200,9 @@ img{
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: center;
-        gap: 10px;
+        gap: 12px;
+  padding: 8px;
+  overflow-x: auto;
         &-icon{
             width: max-content;
             margin-bottom: var(--mb-2);
@@ -526,4 +528,5 @@ img{
         }
     }
 }
+
 
