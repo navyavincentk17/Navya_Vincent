@@ -200,14 +200,15 @@ img{
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: center;
-        gap: 12px;
-  padding: 8px;
-  overflow-x: auto;
-        &-icon{
-            width: max-content;
-            margin-bottom: var(--mb-2);
-            font-size: 1.5rem;
-            color: var(--second-color);
+        gap: 10px;
+        &-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 32px;
+        min-height: 32px;
+        font-size: 1.5rem;
+        color: var(--second-color);
 
             &:hover{
                 color: var(--first-color);
@@ -528,5 +529,6 @@ img{
         }
     }
 }
+
 
 
