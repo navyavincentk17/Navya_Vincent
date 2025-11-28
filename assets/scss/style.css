@@ -74,6 +74,7 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  flex-wrap: nowrap;
 }
 
 .front-icon {
